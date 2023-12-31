@@ -8,9 +8,13 @@
 </head>
 <body>
 
-<audio controls autoplay>
+<audio controls autoplay id="myaudio">
   <source src="music.mp3" type="audio/ogg">
 </audio>
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.1;
+</script>
 
 <div>
   <ul>
